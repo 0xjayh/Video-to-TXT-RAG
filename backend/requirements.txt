@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+langchain_community
+langchain
+langchain_openai
+openai
+yt_dlp
+docarray
+tiktoken
+glob2
+python-dotenv
