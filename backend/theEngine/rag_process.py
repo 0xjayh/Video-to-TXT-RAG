@@ -1,21 +1,9 @@
-import os
-import glob
-import openai
-import yt_dlp as youtube_dl
-from yt_dlp import DownloadError
-import docarray
-from openai import OpenAI
-from dotenv import load_dotenv
-from langchain_community.document_loaders import TextLoader
-import tiktoken
-from langchain.chains import RetrievalQA
-from langchain_openai import ChatOpenAI
-from langchain_community.vectorstores import DocArrayInMemorySearch
-from langchain_openai import OpenAIEmbeddings
-
-###############################
-from theEngine import llm_client
 import base64
+from langchain_community.document_loaders import TextLoader
+from langchain_community.vectorstores import DocArrayInMemorySearch
+from langchain_openai import OpenAIEmbeddings, ChatOpenAI
+from langchain.chains import RetrievalQA
+from theEngine import llm_client
 
 client = llm_client.client
 
